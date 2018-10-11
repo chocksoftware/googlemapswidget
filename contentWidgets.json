@@ -1,0 +1,21 @@
+[
+        {
+          "identifier": "GoogleMapsWidget::MapsWidget",
+          "label": "Widget.mapsLabel",
+          "previewImageURL": "",
+          "type": "default",
+          "position": 1050,
+          "widgetClass": "GoogleMapsWidget\\Widgets\\MapsWidget",
+          "settings": {
+              "empedetMapUrl": {
+                  "type": "codeEditor",
+                  "required": true,
+                  "defaultValue": "",
+                  "options": {
+                      "name": "Widget.mapsApiKeyLabel",
+                      "tooltip": "Widget.mapsApiKeyTooltip"
+                  }
+              }
+          }
+      }
+    ]
