@@ -1,0 +1,23 @@
+{
+    "serviceProvider": "GoogleMapsWidget\\Providers\\MapsServiceProvider",
+    "version": "1.0.0",
+    "name": "GoogleMapsWidget",
+    "marketplaceName": { "de": "Google Maps Widget", "en": "Google Maps Widget" },
+    "description": "This is the Google Maps Widget for the Shop Builder developed by plentymarkets.",
+    "author": "Edgart Keil",
+    "license": "AGPL-3.0",
+    "pluginIcon": "icon_plugin_xs.png",
+    "price": 0.0,
+    "shortDescription": {
+        "de": "Das von Heista entwickelte Google Maps Widget für den Shop Builder.",
+        "en": "This is the Google Maps Widget for the Shop Builder developed by Heista."
+    },
+    "authorIcon": "icon_author_xs.png",
+    "email": "edgart.keil@heista.de ",
+    "phone": "",
+    "categories": ["3527"],
+    "keywords": ["plentymarkets", "plugins", "layout", "widget", "google", "maps", "shopbuilder", "shop builder"],
+    "type": "widgets",
+    "require": ["Ceres", "IO"],
+    "namespace": "GoogleMapsWidget"
+}
