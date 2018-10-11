@@ -8,7 +8,7 @@
           "widgetClass": "GoogleMapsWidget\\Widgets\\MapsWidget",
           "settings": {
               "empedetMapUrl": {
-                  "type": "codeEditor",
+                  "type": "text",
                   "required": true,
                   "defaultValue": "",
                   "options": {
