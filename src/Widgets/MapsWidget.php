@@ -17,8 +17,8 @@ class MapsWidget extends BaseWidget
 
         return [
             "iframeurl" => $empedetMapUrl
-          ]
         ];
+
     }
 
 
