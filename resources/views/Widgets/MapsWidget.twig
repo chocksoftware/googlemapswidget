@@ -1,8 +1,6 @@
 {% if source is not empty %}
     <div>
-        <p>{{ source }}</p>
-        <p>{{ width }}</p>
-        <p>{{ height }}</p>
+        <iframe src="{{ source }}" width="{{ width }}" height="{{ height }}" frameborder="0" style="border:0" ></iframe>
     </div>
 {% else %}
    <h1>Fehler!</h1>
