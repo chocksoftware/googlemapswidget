@@ -10,7 +10,7 @@ class MapsWidget extends BaseWidget
         $height = $widgetSettings["height"]["mobile"];
         $width = $widgetSettings["width"]["mobile"];
         
-        if (empty($empedetMapUrl))
+        if (empty($source))
         {
             return [
                 "iframeurl" => false

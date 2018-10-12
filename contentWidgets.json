@@ -18,7 +18,7 @@
               },
               
               "height": {
-                  "type": "text",
+                  "type": "number",
                   "required": true,
                   "defaultValue": "400",
                   "options": {
@@ -28,7 +28,7 @@
               },
               
               "width": {
-                  "type": "text",
+                  "type": "number",
                   "required": true,
                   "defaultValue": "400",
                   "options": {
