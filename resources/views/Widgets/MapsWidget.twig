@@ -1,5 +1,7 @@
 {% if iframeurl is not empty %}
     <div>
-        {{ geocoding_data.apiKey }}
+        {{ iframeurl }}
     </div>
+{% else %}
+   <h1>Fehler!</h1>
 {% endif %}
