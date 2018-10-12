@@ -1,6 +1,8 @@
-{% if iframeurl is not empty %}
+{% if source is not empty %}
     <div>
-        {{ iframeurl }}
+        <p>{{ source }}</p>
+        <p>{{ width }}</p>
+        <p>{{ height }}</p>
     </div>
 {% else %}
    <h1>Fehler!</h1>

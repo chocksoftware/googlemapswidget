@@ -6,8 +6,10 @@ class MapsWidget extends BaseWidget
     protected $template = "GoogleMapsWidget::Widgets.MapsWidget";
     protected function getTemplateData($widgetSettings, $isPreview)
     {
-        $empedetMapUrl = $widgetSettings["empedetMapUrl"]["mobile"];
-
+        $source = $widgetSettings["source"]["mobile"];
+        $height = $widgetSettings["height"]["mobile"];
+        $width = $widgetSettings["width"]["mobile"];
+        
         if (empty($empedetMapUrl))
         {
             return [
@@ -16,7 +18,9 @@ class MapsWidget extends BaseWidget
         }
 
         return [
-            "iframeurl" => $empedetMapUrl
+            "source" => $source,
+            "width" => $width,
+            "height" => $height
         ];
 
     }
